@@ -11,20 +11,21 @@
         body {
             font-family: 'Roboto', sans-serif;
             margin: 20px;
-            background-color: #f9f9f9;
+            background-color: #431212;
         }
         h1 {
-            color: #333;
+            color: #ffffff;
             font-size: 28px;
         }
         p {
             font-size: 18px;
-            color: #555;
+            color: #c18f8f; 
+            font-style: italic;
         }
         
 
         a {
-            color: #0077cc;
+            color: #006dbb;
             text-decoration: none;
             font-weight: bold;
         }
@@ -32,7 +33,7 @@
             color: #ff6600;
         }
         a:visited {
-            color: #551a8b;
+            color: hsl(271, 84%, 58%);
         }
         a:active {
             color: #cc0000;
@@ -46,17 +47,17 @@
     </style>
 </head>
 <body>
-    <h1>Styled Webpage</h1>
-    <p> This page demonstrates various styling techniques including fonts, link styles, and an image map.</p>
+    <h1>Huntress</h1>
+    <p> Huntress is a short, MTF, human who serves to be the vessel as the god of 'endings'. After going nameless for so long; the trans woman would eventually, and finally, begin her transition into the person she truely was with the aid of the cosmic god of death, destruction, and black holes..</p>
     
-    <p>Check out <a href="https://www.google.com">Google</a> as an example of a styled link.</p>
+    <p>Check out <a href="https://www.instagram.com/voided.sanctuary/">My Instagram</a> to see more of my art.</p>
     
     <div class="image-container">
-        <img src="https://via.placeholder.com/500" alt="Sample Image" usemap="#image-map">
+        <img src="Huntress.png" alt="image" usemap="#image-map " sizes=" 100vw" srcset="Huntress.png  width="882" height="748">
         
         <map name="image-map">
-            <area shape="rect" coords="0,0,250,250" href="https://www.example.com" alt="Clickable Area 1">
-            <area shape="circle" coords="375,125,50" href="https://www.example2.com" alt="Clickable Area 2">
+            <area shape="rect" coords="308,123,882,748" href="https://theuselessweb.com/" alt="Clickable Area 1">
+            <area shape="circle" coords="0,0,882,748" href="https://theuselessweb.com/" alt="Clickable Area 2">
         </map>
     </div>
 </body>
