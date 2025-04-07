@@ -1,5 +1,6 @@
 
-<head>
+<body>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styled Webpage with Clickable Image</title>
@@ -44,10 +45,10 @@
             margin-top: 20px;
         }
     </style>
-</head>
+</body>
 <body>
     <h1>Huntress</h1>
-    <p> Huntress is a short, MTF, human who serves to be the vessel as the god of 'endings'. After going nameless for so long; the trans woman would eventually, and finally, begin her transition into the person she truely was with the aid of the cosmic god of death, destruction, and black holes..</p>
+    <p> Huntress is a short, MTF, human who serves to be the vessel as the god of 'endings'. After going nameless for so long; the trans woman would eventually, and finally, begin her transition into the person she truly was with the aid of the cosmic god of death, destruction, and black holes..</p>
     
     <p>Check out <a href="https://www.instagram.com/voided.sanctuary/">My Instagram</a> to see more of my art.</p>
     

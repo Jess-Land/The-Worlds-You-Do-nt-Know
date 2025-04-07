@@ -1,88 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webpage Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+</style>
+</head>
+<body>
+    <h1>Fae's and Changlings over time</h1>
 
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Webpage Demonstration</title>
-      <style>
-          body {
-              font-family: Arial, sans-serif;
-              text-align: center;
-          }
-          table {
-              width: 50%;
-              margin: auto;
-              border-collapse: collapse;
-          }
-          th, td {
-              border: 1px solid black;
-              padding: 8px;
-              text-align: center;
-          }
-          button {
-              margin-top: 20px;
-              padding: 10px;
-              font-size: 16px;
-          }
-      </style>
-  </head>
-  <body>
-      <h1>Fae's and Changlings over time</h1>
-      
-      <h2>Its unheard of in modern times for stories about faes and changlings to sprout out, while uncommon, the reason why is because over time as the traded children of the fae's grow up and mingle with the humans they become less powerful.</h2>
-      <h5> As a matter of fact, the species of fae have splintered off throughout the years turning into their respective races now known as Elves and Shapeshifters. 
+    <h2>Its unheard of in modern times for stories about faes and changlings to sprout out, while uncommon, the reason why is because over time as the traded children of the fae's grow up and mingle with the humans they become less powerful.</h2>
+    <h5> As a matter of fact, the species of fae have splintered off throughout the years turning into their respective races now known as Elves and Shapeshifters. 
         Shapeshifters are known for their ability to transform into whatever they like without the use of magic thanks to their ancestors focusing stictly on polymorph till the point 
         the magic altered their genetic sequences to be who they are now. As for elves, they used a vast and rich book of spells yet their ancestors stayed with
-        humans to the point of what is referred to by the fae community as 'domestification', leading for their traditions to be more human, and furthermore loosing most of their animallike qualities in trade for being with modern civilization. 
-
-      </h5>
-      <table>
-          <tr>
-              <th>Species</th>
-              <th>Differences</th>
-          </tr>
-          <tr>
-              <td>Elves</td>
-              <td>-Vast knowledge in different spells 
+        humans to the point of what is referred to by the fae community as 'domestification', leading for their traditions to be more human, and furthermore loosing most of their animallike qualities in trade for being with modern civilization. </h5>
+    <table>
+        <tr>
+            <th>Species</th>
+            <th>Differences</th>
+        </tr>
+        <tr>
+            <td>Elves</td>
+            <td>-Vast knowledge in different spells 
                 - Short ears
                 - They don't have pup/larvae stage
                 - Do noy have animal tendencies
                 - Omnivore
                 - Shorter life span 
                 - Don't care about names
-              </td>
-          </tr>
-          <tr>
-              <td>Shapeshifters</td>
-              <td>-More feral
+            </td>
+        </tr>
+        <tr>
+            <td>Shapeshifters</td>
+            <td>-More feral
                 - Have several prominant stages of growing up
                 - Can only shapeshift, all magic is nearly lost
                 - Has tails
                 - Longer ears 
                 - Carnivore 
                 - Deep seated tradition with names
-              </td>
-          </tr>
-      </table>
-      <h4> The only simularities that shapeshifters and elves possess are their deep connection to nature-- to the point that both magic and ability to shapeshift are ingrained with their connection to nature itself--
+            </td>
+        </tr>
+    </table>
+    <h4> The only simularities that shapeshifters and elves possess are their deep connection to nature-- to the point that both magic and ability to shapeshift are ingrained with their connection to nature itself--
         their ability to understand and connect with animals, and lastly, their starting roots as species. 
-      </h4>
-      <h2>Dietary needs </h2>
-      <ul>
-          <li>🍎- Elves's diet's are more vast, able to eat both plants and animals. </li>
-          <li>🧂- Oddly enough, foods rich with salt are avoided by both species </li>
-          <li>🍖- Shapeshifter's are strictly carnivores, those who try to turn vegan will often die or have to overeat to get the proper calorie intake in order to shapeshift or move </li>
-      </ul>
-      
-      <h2>Iframe Example</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ugseoC4-ZcI" frameborder="0" allowfullscreen></iframe>
-      
-      <h2>JavaScript Example</h2>
-      <button onclick="changeColor()">Change Background Color</button>
-      
-      <script>
-          function changeColor() {
-              document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-          }
-      </script>
-  </body>
-  </html>
+    </h4>
+    <h2>Dietary needs </h2>
+    <ul>
+        <li>🍎- Elves's diet's are more vast, able to eat both plants and animals. </li>
+        <li>🧂- Oddly enough, foods rich with salt are avoided by both species </li>
+        <li>🍖- Shapeshifter's are strictly carnivores, those who try to turn vegan will often die or have to overeat to get the proper calorie intake in order to shapeshift or move </li>
+    </ul>
+
+    <h2>Iframe Example</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ugseoC4-ZcI" frameborder="0" allowfullscreen></iframe>
+
+    <h2>JavaScript Example</h2>
+    <button onclick="changeColor()">Change Background Color</button>
+    
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        }
+    </script>
+</body>
+</html>
