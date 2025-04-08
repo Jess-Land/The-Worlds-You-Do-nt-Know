@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout with jQuery UI</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 300px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Flexbox Layout with jQuery UI</h1>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <button id="dialogButton" style="display: block; margin: 20px auto;">Open Dialog</button>
+    <div id="dialog" title="jQuery UI Dialog" style="display: none;">
+        <p>This is a jQuery UI dialog box.</p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#dialogButton").click(function(){
+                $("#dialog").dialog();
+            });
+        });
+    </script>
+</body>
+</html>
